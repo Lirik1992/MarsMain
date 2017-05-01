@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/your_places"
+            android:icon="@drawable/ic_your_places"
+            android:title="@string/your_places"/>
+        <item
+            android:id="@+id/traffic_jams"
+            android:icon="@drawable/ic_traffic_jam"
+            android:title="@string/traffic_jams"/>
+        <item
+            android:id="@+id/transport"
+            android:icon="@drawable/ic_transport"
+            android:title="@string/transport"/>
+        <item
+            android:id="@+id/bicycles"
+            android:icon="@drawable/ic_bicycle"
+            android:title="@string/bicycles"/>
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/action_settings"/>
+            <item
+                android:id="@+id/reference"
+                android:icon="@drawable/ic_reference"
+                android:title="@string/reference"/>
+        </menu>
+    </item>
+
+</menu>
